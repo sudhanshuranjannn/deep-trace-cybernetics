@@ -4,7 +4,7 @@ from app.models import Tenant, User, AuditLog
 
 def payload(**updates):
     return {'organization_name':'Apex Cybersecurity', 'slug':'apex-cybersecurity',
-            'name':'Anmol', 'email':'admin@apex.test', 'password':'SecurePassword123!', **updates}
+            'name':'Sudhanshu', 'email':'admin@apex.test', 'password':'SecurePassword123!', **updates}
 
 
 def test_signup_login_and_empty_tenant_isolation(context):
